@@ -1,0 +1,30 @@
+The system is tested on the Aalborg Carnival parade. The parade lasts five hours and system performances is evaluated on video clips from four different scenarios. The different scenarios are listed in Table \ref{results:scenarios}. The ground truth is found by manually counting the people that fit the three criteria in each of the video clips.
+%The scenario in video 1 \& 2 are "Few people at a slow walking pace",  video 3 \& 4 are "Few people at a fast walking pace", video 5 \& 6 are Many people at a slow walking pace and finally video 7 \& 8 contain the scenario with "Many people at a slow walking pace and carnival floats".
+\begin{center}
+  \captionof{table}{Four scenarios and associated videos.}
+  \begin{tabular}{l r}
+    \toprule
+    \textbf{\textit{Scenario}}& \textbf{\textit{Video}} \\
+    \midrule
+Few people at a slow walking pace & 1 , 2  \\
+Few people at a fast walking pace & 3 , 4\\
+Many people at a slow walking pace & 5 , 6 \\
+Many people at a slow walking pace with floats  & 7 , 8 \\   
+    \bottomrule
+  \end{tabular}
+  \label{results:scenarios}
+\end{center}
+
+The system's performance for the eight video clips are seen in Figure \ref{results:results1}. Furthermore, the processing time per frame is 43.5 ms - 51.5 ms depending on tracking.
+% As seen in the figure, there is no strong tendency towards better or worse performances in any of the scenarios.
+
+%\begin{center}
+%\includegraphics[scale=0.11]{text/figures/results.png}
+%  \captionof{figure}{(a) Error results. (b) Precision results. (c) Sensitivity results.}
+%\label{results:results1}
+%\end{center}
+\begin{center}
+\includegraphics[scale=0.2455]{text/figures/error.png}
+  \captionof{figure}{Error results.}
+\label{results:results1}
+\end{center}

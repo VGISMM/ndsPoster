@@ -1,0 +1,34 @@
+ \begin{multicols}{2}   
+The disparity map is calculated by applying the OpenCV implementation of SGBM \cite{SGBM} to two rectified gray scale images captured using a Bumblebee XB3 stereo camera. Gaussian and Median filters are used to smooth and eliminate irregularities in the computed disparity map. Figure \ref{method:blockDiagram} shows a block diagram of the methods applied in the crowd counting system.
+
+\begin{center}
+  \includegraphics[scale=0.33]{text/figures/proposedSystem.png}
+  \captionof{figure}{Overview of the methods used in the proposed system.}
+  \label{method:blockDiagram}
+\end{center}
+
+Based on the calculated disparity map, local maxima are found. The outputs of the steps involved in the segmentation of local maxima are shown in Figure \ref{method:Segmentation}. The first step shows the disparity map thresholded at chest height.
+
+\begin{center}
+  \includegraphics[scale=0.25]{text/figures/segmentation.png}
+  \captionof{figure}{Segmentation steps involved in finding local maxima in the disparity map.}
+  \label{method:Segmentation}
+\end{center}
+The last step in the segmentation contains small BLOBs, which represents the top point of each person. However, top points in the disparity map, that were found to be higher than what a person can be, would also be present. These are masked out using the convex hulls of the areas above the height of a person.\\
+
+In order to eliminate some false positives three trackers are applied, namely a Kalman filter \cite{kalman}, mean shift filter \cite{mean} and a nearest neighbor tracker. Each tracker determines the distance between the tracked BLOBs in the previous frame and all the detected BLOBs in the current frame. These three Euclidean distances, d\_NN, d\_Kalman and d\_meanshift, are combined into a single score using Equation \eqref{decisionEq}, where the effects of large distance, e.g. due to a bad prediction from the Kalman filter, impacts the combined score relatively little.
+\begin{equation}
+score=(\alpha_1*d_{\text{NN}}{}^{-1}+\alpha_2*d_{Kalman}{}^{-1}+\alpha_3*d_{meanshift}{}^{-1})^{-1}
+\label{decisionEq}
+\end{equation}
+The optimum values of the three weights vary from situation to situation, in the end a compromise of $\alpha_1 = \alpha_2 = \alpha_3$  was chosen.
+Before the system counts a person, every tracked BLOB is evaluated against three criteria:\\
+\begin{itemize}
+\item A person must be tracked in five five consecutive frames.
+\item The trajectory of the person must be overall positive.
+\item A person that is tracked and previously counted must not be counted again.
+\end{itemize}
+
+%First criteria is that the same person must be tracked for five consecutive frames, secondly the trajectory of the person must be overall positive, meaning the person must have progressed downwards in the image. The final criterion is that a person that is tracked and previously counted must not be counted again.
+
+  \end{multicols}

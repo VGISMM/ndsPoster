@@ -1,0 +1,26 @@
+Aalborg Carnival claims to be the biggest in Northern Europe, with approximately 50.000 participants in the parade. This statement is based on a rough estimate, as it is very demanding and a difficult task to count the people attending the parade using the conventional methods.
+From a computer vision point of view a carnival presents a lot of challenges due to its scale, the crowd density and the fact that many of the participants are dressed up in costumes making it difficult to detect people, as seen in Figure \ref{carnival:carnival1}.
+\begin{center}
+  \includegraphics[scale=0.22]{text/figures/carnival1.png}
+  \captionof{figure}{Bird's-eye view of the parade at Aalborg Carnival 2014.}
+  \label{carnival:carnival1}
+\end{center}
+
+The parade mainly consists of people, but a major challenge is to distinguish all the other objects in the parade and not count these. Within the parade, a lot of small floats are towed along by the attendees. These take all sorts of shapes and sizes. In addition, larger floats participates in the parade as seen in Figure \ref{carnival:carnival2}.
+
+\begin{center}
+\includegraphics[scale=1.07]{text/figures/carnival2.JPG}
+  \captionof{figure}{A viking ship float from the parade.}
+\label{carnival:carnival2}
+\end{center}
+ 
+%\begin{figure}
+%\center
+%\includegraphics[width=0.2]{text/figures/carnival1.png}
+%\caption{The parade at Aalborg Carnival 2014.}  
+%\label{carnival:carnival1}
+%\end{figure}
+%dd
+%auha
+%
+\vspace{1.5pt}
