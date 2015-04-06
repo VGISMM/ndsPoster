@@ -1,1 +1,1 @@
-# NDS POSTER for UCSD Reserach Expo
+# NDS POSTER for UCSD Research Expo
