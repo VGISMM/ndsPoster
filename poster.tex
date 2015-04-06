@@ -13,7 +13,7 @@
 %  GNU General Public License for more details.
 %
 %  You can find the GNU General Public License at <http://www.gnu.org/licenses/>. RATIO: 1,1165048544
-\documentclass[paperwidth=48in,paperheight=42in,landscape]{baposter}
+\documentclass[paperwidth=48in,paperheight=42in,landscape]{preambles/baposter}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Language, Encoding and Fonts
 % http://en.wikibooks.org/wiki/LaTeX/Internationalization
@@ -48,6 +48,8 @@
 \usepackage{blindtext}
 \usepackage{booktabs}
 \usepackage{multirow}
+\usepackage{graphics} 
+
 \usepackage{lipsum}
 \usepackage{blindtext}
 \usepackage{gensymb}
@@ -216,7 +218,7 @@ justification=centering,
 {
   %this can be commented out or replaced by a company/department logo
 
-  \includegraphics[height=0.75\headerheight]{aau_logo_new_neg}
+  \includegraphics[height=0.75\headerheight]{preambles/aau_logo_new_neg}
  
  
  %
@@ -229,17 +231,30 @@ justification=centering,
 {\color{white}\small
   \vspace{0.7em} \begin{large} \textit{Mark Philip Philipsen} \& \textit{Morten Bornø Jensen} \end{large} \\[0.7em]
    %mphili10@student.aau.dk, mbje10@student.aau.dk\\[0.3em]
-Visual Analysis of People Lab, Aalborg University, Denmark \\
-Computer Vision and Robotics Research Laboratory, University of California, San Diego
-
+%Visual Analysis of People Lab, Aalborg University, Denmark \\
+%Computer Vision and Robotics Research Laboratory, University of California, San Diego
+\textit{Advisor: Professor Mohan M. Trivedi}
   %\begin{large}VGIS, Group: 13gr740, Aalborg University, Denmark, 2013\end{large}
 }
 %the logo (the logo on the right)
 {
   %this can be commented out or replaced by a company/department logo
- % \includegraphics[height=0.75\headerheight]{ucsdECE}
- 
-  \includegraphics[height=0.35\headerheight]{ucsdECE}
+  \includegraphics[height=0.75\headerheight]{preambles/all.png}
+%\setlength{\columnsep}{0pt}
+%  \begin{tabular}{cc}
+%% \subfloat[]{\includegraphics[width=0.46\textwidth]{text/figures/numOfObjects.png} }\\
+%% \subfloat[]{\includegraphics[width=0.46\textwidth]{text/figures/numOfObjects.png}}
+%%    
+%
+% \multicolumn{2}{c}{ \includegraphics[height=0.25\headerheight]{preambles/ucsdJacobs} } \\
+% & \\
+%  \includegraphics[height=0.12\headerheight]{preambles/cvrr} & \includegraphics[height=0.12\headerheight]{preambles/lisaOwn.png} \\
+%
+%%   \\[1ex]
+%
+%  
+%  \end{tabular}
+
 
 
 }
@@ -253,7 +268,7 @@ Computer Vision and Robotics Research Laboratory, University of California, San 
 \input{text/introduction.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=propsedMethod,column=1,span=2]{Proposed Method}
+\begin{posterbox}[name=propsedMethod,column=1,span=2]{Proposed System}
 \input{text/method.tex}
 \end{posterbox}
 
@@ -265,11 +280,11 @@ Computer Vision and Robotics Research Laboratory, University of California, San 
 \input{text/conclusion.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=acknowledgment,column=2,below=conclusion]{Acknowledgment}
-\input{text/acknowledgment.tex}
-\end{posterbox}
+%\begin{posterbox}[name=acknowledgment,column=2,below=conclusion]{Acknowledgment}
+%\input{text/acknowledgment.tex}
+%\end{posterbox}
 
-\begin{posterbox}[name=references,column=2,below=acknowledgment]{References}
+\begin{posterbox}[name=references,column=2,below=conclusion]{References}
 %%\input{introduction.tex}
 \nocite{bal:cha:gra:pae}
 \bibliographystyle{IEEEtran}

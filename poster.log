@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  3 APR 2015 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  6 APR 2015 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,11 @@ entering extended mode
 (./poster.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(./baposter.cls
+(./preambles/baposter.cls
+
+LaTeX Warning: You have requested document class `preambles/baposter',
+               but the document class provides `baposter'.
+
 Document Class: baposter 2011/11/26 v2.0 baposter class
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -1133,9 +1137,9 @@ Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
 Package: wrapfig 2003/01/31  v 3.6
 )
 Package newfloat Info: New float `chart' with options ` fileext=loc ' on input 
-line 87.
+line 89.
 \c@chart=\count183
-Package newfloat Info: float type `chart'=4 on input line 87.
+Package newfloat Info: float type `chart'=4 on input line 89.
 \c@locdepth=\count184
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -1160,24 +1164,36 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./poster.aux)
+) (./poster.aux
+
+LaTeX Warning: Label `fig:methods::disparity:dispEx1:postVDisp' multiply define
+d.
+
+
+LaTeX Warning: Label `sub@fig:methods::disparity:dispEx1:postVDisp' multiply de
+fined.
+
+
+LaTeX Warning: Label `fig:methods::disparity:dispEx1:postVdisp' multiply define
+d.
+
+)
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 168.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1phv.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 170.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1278,14 +1294,14 @@ Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 168.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 168
+LaTeX Info: Redefining \celsius on input line 170.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 170
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 168.
-Package gensymb Info: Using \upOmega for \ohm on input line 168.
+LaTeX Info: Redefining \ohm on input line 170.
+Package gensymb Info: Using \upOmega for \ohm on input line 170.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1293,91 +1309,84 @@ Package gensymb Warning: Not defining \micro.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.10} into 
 your preamble.
- on input line 168.
+ on input line 170.
 
-<aau_logo_new_neg.pdf, id=29, 116.435pt x 76.285pt>
-File: aau_logo_new_neg.pdf Graphic file (type pdf)
- <use aau_logo_new_neg.pdf>
-Package pdftex.def Info: aau_logo_new_neg.pdf used on input line 245.
+<preambles/aau_logo_new_neg.pdf, id=29, 116.435pt x 76.285pt>
+File: preambles/aau_logo_new_neg.pdf Graphic file (type pdf)
+
+<use preambles/aau_logo_new_neg.pdf>
+Package pdftex.def Info: preambles/aau_logo_new_neg.pdf used on input line 260.
+
 (pdftex.def)             Requested size: 128.20148pt x 83.99126pt.
-Package epstopdf Info: Source file: <ucsdECE.eps>
-(epstopdf)                    date: 2015-04-03 12:17:03
-(epstopdf)                    size: 22825 bytes
-(epstopdf)             Output file: <ucsdECE-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-03 12:17:17
-(epstopdf)                    size: 9941 bytes
-(epstopdf)             Command: <repstopdf --outfile=ucsdECE-eps-converted-to.p
-df ucsdECE.eps>
-(epstopdf)             \includegraphics on input line 245.
-Package epstopdf Info: Output file is already uptodate.
 
-<ucsdECE-eps-converted-to.pdf, id=30, 314.17375pt x 69.25874pt>
-File: ucsdECE-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ucsdECE-eps-converted-to.pdf>
-Package pdftex.def Info: ucsdECE-eps-converted-to.pdf used on input line 245.
-(pdftex.def)             Requested size: 177.80571pt x 39.1966pt.
+<preambles/all.png, id=30, 110.3322pt x 75.1608pt>
+File: preambles/all.png Graphic file (type png)
+ <use preambles/all.png>
+Package pdftex.def Info: preambles/all.png used on input line 260.
+(pdftex.def)             Requested size: 123.30183pt x 83.99126pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 245.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 260.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 245.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 260.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 245.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 245.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 260.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 260.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 260.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 245.
+LaTeX Font Info:    Try loading font information for U+msa on input line 260.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 245.
+LaTeX Font Info:    Try loading font information for U+msb on input line 260.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (./text/introduction.tex
-<text/figures/numOfObjects.png, id=31, 1940.24875pt x 941.5175pt>
+<text/figures/numOfObjects.png, id=32, 1940.24875pt x 941.5175pt>
 File: text/figures/numOfObjects.png Graphic file (type png)
 
 <use text/figures/numOfObjects.png>
-Package pdftex.def Info: text/figures/numOfObjects.png used on input line 6.
-(pdftex.def)             Requested size: 140.70236pt x 68.26904pt.
+Package pdftex.def Info: text/figures/numOfObjects.png used on input line 9.
+(pdftex.def)             Requested size: 143.83215pt x 69.79187pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 9.
 
 <text/figures/avgDistanceSameLane.png, id=33, 1939.245pt x 907.39pt>
 File: text/figures/avgDistanceSameLane.png Graphic file (type png)
 
 <use text/figures/avgDistanceSameLane.png>
 Package pdftex.def Info: text/figures/avgDistanceSameLane.png used on input lin
-e 7.
-(pdftex.def)             Requested size: 140.70236pt x 65.836pt.
+e 10.
+(pdftex.def)             Requested size: 143.83215pt x 67.2898pt.
 
 <text/figures/leftIntersect.png, id=34, 2329.70375pt x 1242.6425pt>
 File: text/figures/leftIntersect.png Graphic file (type png)
 
 <use text/figures/leftIntersect.png>
-Package pdftex.def Info: text/figures/leftIntersect.png used on input line 9.
-(pdftex.def)             Requested size: 140.70236pt x 75.04832pt.
+Package pdftex.def Info: text/figures/leftIntersect.png used on input line 12.
+(pdftex.def)             Requested size: 143.83215pt x 76.7169pt.
 
 <text/figures/turningO.png, id=35, 2347.77126pt x 1192.455pt>
 File: text/figures/turningO.png Graphic file (type png)
 
 <use text/figures/turningO.png>
-Package pdftex.def Info: text/figures/turningO.png used on input line 10.
-(pdftex.def)             Requested size: 140.70236pt x 71.45323pt.
+Package pdftex.def Info: text/figures/turningO.png used on input line 13.
+(pdftex.def)             Requested size: 143.83215pt x 73.03622pt.
 
 <text/figures/passingIntersect.png, id=36, 2347.77126pt x 1300.86pt>
 File: text/figures/passingIntersect.png Graphic file (type png)
 
 <use text/figures/passingIntersect.png>
 Package pdftex.def Info: text/figures/passingIntersect.png used on input line 1
-2.
-(pdftex.def)             Requested size: 140.70236pt x 77.94897pt.
+5.
+(pdftex.def)             Requested size: 143.83215pt x 79.67589pt.
 
 <text/figures/passingIntersectOntoSameDirection.png, id=37, 2347.77126pt x 1242
 .6425pt>
@@ -1385,77 +1394,133 @@ File: text/figures/passingIntersectOntoSameDirection.png Graphic file (type png
 )
  <use text/figures/passingIntersectOntoSameDirection.png>
 Package pdftex.def Info: text/figures/passingIntersectOntoSameDirection.png use
-d on input line 13.
-(pdftex.def)             Requested size: 140.70236pt x 74.46053pt.
+d on input line 16.
+(pdftex.def)             Requested size: 143.83215pt x 76.11014pt.
+
+Overfull \hbox (4.55005pt too wide) in paragraph at lines 8--20
+ [][] 
+ []
+
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 17.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 254.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 269.
 Missing character: There is no ; in font nullfont!
+ (./text/method.tex
+<text/figures/systemForeslag4.png, id=38, 830.10126pt x 233.87375pt>
+File: text/figures/systemForeslag4.png Graphic file (type png)
 
-(./text/method.tex)
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- (./text/results.tex)
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- (./text/conclusion.tex)
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+<use text/figures/systemForeslag4.png>
+Package pdftex.def Info: text/figures/systemForeslag4.png used on input line 7.
 
-(./text/acknowledgment.tex
+(pdftex.def)             Requested size: 271.045pt x 76.36491pt.
+
+<text/figures/methods/dispEx1/inputL.png, id=39, 481.8pt x 248.93pt>
+File: text/figures/methods/dispEx1/inputL.png Graphic file (type png)
+
+<use text/figures/methods/dispEx1/inputL.png>
+Package pdftex.def Info: text/figures/methods/dispEx1/inputL.png used on input 
+line 35.
+(pdftex.def)             Requested size: 141.97736pt x 73.35394pt.
+
+<text/figures/methods/dispEx1/postVDisp.png, id=40, 1284.8pt x 662.475pt>
+File: text/figures/methods/dispEx1/postVDisp.png Graphic file (type png)
+
+<use text/figures/methods/dispEx1/postVDisp.png>
+Package pdftex.def Info: text/figures/methods/dispEx1/postVDisp.png used on inp
+ut line 36.
+(pdftex.def)             Requested size: 141.97736pt x 73.20605pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 50.
+
+<text/figures/methods/intersectionVoting.png, id=41, 1061.9675pt x 757.83125pt>
+File: text/figures/methods/intersectionVoting.png Graphic file (type png)
+<use text/figures/methods/intersectionVoting.png>
+Package pdftex.def Info: text/figures/methods/intersectionVoting.png used on in
+put line 63.
+(pdftex.def)             Requested size: 141.97736pt x 101.30833pt.
+
+<text/figures/methods/frame1.png, id=42, 240.9pt x 123.46124pt>
+File: text/figures/methods/frame1.png Graphic file (type png)
+
+<use text/figures/methods/frame1.png>
+Package pdftex.def Info: text/figures/methods/frame1.png used on input line 64.
+
+(pdftex.def)             Requested size: 141.97736pt x 72.76425pt.
+)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ (./text/results.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 7.
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-
-LaTeX Warning: Citation `bal:cha:gra:pae' undefined on input line 274.
-
-No file poster.bbl.
+(./text/conclusion.tex)
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (2.11998pt too wide) in paragraph at lines 245--279
+
+LaTeX Warning: Citation `bal:cha:gra:pae' undefined on input line 289.
+
+(./poster.bbl)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (2.11998pt too wide) in paragraph at lines 260--294
 [][]  [] 
  []
 
 [2
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./aau_l
-ogo_new_neg.pdf> <./ucsdECE-eps-converted-to.pdf> <./text/figures/numOfObjects.
-png> <./text/figures/avgDistanceSameLane.png> <./text/figures/leftIntersect.png
-> <./text/figures/turningO.png> <./text/figures/passingIntersect.png> <./text/f
-igures/passingIntersectOntoSameDirection.png>] (./poster.aux)
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pream
+bles/aau_logo_new_neg.pdf> <./preambles/all.png> <./text/figures/numOfObjects.p
+ng> <./text/figures/avgDistanceSameLane.png> <./text/figures/leftIntersect.png>
+ <./text/figures/turningO.png> <./text/figures/passingIntersect.png> <./text/fi
+gures/passingIntersectOntoSameDirection.png> <./text/figures/systemForeslag4.pn
+g> <./text/figures/methods/dispEx1/inputL.png> <./text/figures/methods/dispEx1/
+postVDisp.png (PNG copy)> <./text/figures/methods/intersectionVoting.png> <./te
+xt/figures/methods/frame1.png>] (./poster.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 26350 strings out of 493117
- 626249 string characters out of 6135433
- 893597 words of memory out of 5000000
- 29245 multiletter control sequences out of 15000+600000
- 44449 words of font info for 55 fonts, out of 8000000 for 9000
+ 26339 strings out of 493117
+ 626988 string characters out of 6135433
+ 917639 words of memory out of 5000000
+ 29235 multiletter control sequences out of 15000+600000
+ 51418 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,21n,96p,723b,1164s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,22n,96p,796b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on poster.pdf (1 page, 1522924 bytes).
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on poster.pdf (1 page, 2194854 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
