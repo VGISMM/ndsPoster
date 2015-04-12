@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  12 APR 2015 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  12 APR 2015 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3167,7 +3167,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.54      \includegraphics
-                          [width=0.3\textwidth]{text/figures/methods/eventHi...
+                          [width=0.4\textwidth]{text/figures/methods/eventHi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3183,11 +3183,11 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.54      \includegraphics[width=0.3\textwidth]
+l.54      \includegraphics[width=0.4\textwidth]
                                                {text/figures/methods/eventHi...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3196,7 +3196,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.54      \includegraphics[width=0.3\textwidth]
+l.54      \includegraphics[width=0.4\textwidth]
                                                {text/figures/methods/eventHi...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
