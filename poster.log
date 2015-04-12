@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  6 APR 2015 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  12 APR 2015 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1354,7 +1354,7 @@ File: text/figures/numOfObjects.png Graphic file (type png)
 
 <use text/figures/numOfObjects.png>
 Package pdftex.def Info: text/figures/numOfObjects.png used on input line 9.
-(pdftex.def)             Requested size: 143.83215pt x 69.79187pt.
+(pdftex.def)             Requested size: 87.54834pt x 42.48138pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 9.
 
@@ -1364,21 +1364,21 @@ File: text/figures/avgDistanceSameLane.png Graphic file (type png)
 <use text/figures/avgDistanceSameLane.png>
 Package pdftex.def Info: text/figures/avgDistanceSameLane.png used on input lin
 e 10.
-(pdftex.def)             Requested size: 143.83215pt x 67.2898pt.
+(pdftex.def)             Requested size: 87.54834pt x 40.9554pt.
 
 <text/figures/leftIntersect.png, id=34, 2329.70375pt x 1242.6425pt>
 File: text/figures/leftIntersect.png Graphic file (type png)
 
 <use text/figures/leftIntersect.png>
 Package pdftex.def Info: text/figures/leftIntersect.png used on input line 12.
-(pdftex.def)             Requested size: 143.83215pt x 76.7169pt.
+(pdftex.def)             Requested size: 87.54834pt x 46.6824pt.
 
 <text/figures/turningO.png, id=35, 2347.77126pt x 1192.455pt>
 File: text/figures/turningO.png Graphic file (type png)
 
 <use text/figures/turningO.png>
 Package pdftex.def Info: text/figures/turningO.png used on input line 13.
-(pdftex.def)             Requested size: 143.83215pt x 73.03622pt.
+(pdftex.def)             Requested size: 87.54834pt x 44.4513pt.
 
 <text/figures/passingIntersect.png, id=36, 2347.77126pt x 1300.86pt>
 File: text/figures/passingIntersect.png Graphic file (type png)
@@ -1386,7 +1386,7 @@ File: text/figures/passingIntersect.png Graphic file (type png)
 <use text/figures/passingIntersect.png>
 Package pdftex.def Info: text/figures/passingIntersect.png used on input line 1
 5.
-(pdftex.def)             Requested size: 143.83215pt x 79.67589pt.
+(pdftex.def)             Requested size: 87.54834pt x 48.49232pt.
 
 <text/figures/passingIntersectOntoSameDirection.png, id=37, 2347.77126pt x 1242
 .6425pt>
@@ -1395,12 +1395,7 @@ File: text/figures/passingIntersectOntoSameDirection.png Graphic file (type png
  <use text/figures/passingIntersectOntoSameDirection.png>
 Package pdftex.def Info: text/figures/passingIntersectOntoSameDirection.png use
 d on input line 16.
-(pdftex.def)             Requested size: 143.83215pt x 76.11014pt.
-
-Overfull \hbox (4.55005pt too wide) in paragraph at lines 8--20
- [][] 
- []
-
+(pdftex.def)             Requested size: 87.54834pt x 46.32214pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
 
@@ -1428,7 +1423,7 @@ File: text/figures/methods/dispEx1/inputL.png Graphic file (type png)
 
 <use text/figures/methods/dispEx1/inputL.png>
 Package pdftex.def Info: text/figures/methods/dispEx1/inputL.png used on input 
-line 35.
+line 24.
 (pdftex.def)             Requested size: 141.97736pt x 73.35394pt.
 
 <text/figures/methods/dispEx1/postVDisp.png, id=40, 1284.8pt x 662.475pt>
@@ -1436,25 +1431,33 @@ File: text/figures/methods/dispEx1/postVDisp.png Graphic file (type png)
 
 <use text/figures/methods/dispEx1/postVDisp.png>
 Package pdftex.def Info: text/figures/methods/dispEx1/postVDisp.png used on inp
-ut line 36.
+ut line 25.
 (pdftex.def)             Requested size: 141.97736pt x 73.20605pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 50.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 39.
 
 <text/figures/methods/intersectionVoting.png, id=41, 1061.9675pt x 757.83125pt>
 File: text/figures/methods/intersectionVoting.png Graphic file (type png)
 <use text/figures/methods/intersectionVoting.png>
 Package pdftex.def Info: text/figures/methods/intersectionVoting.png used on in
-put line 63.
+put line 44.
 (pdftex.def)             Requested size: 141.97736pt x 101.30833pt.
 
-<text/figures/methods/frame1.png, id=42, 240.9pt x 123.46124pt>
-File: text/figures/methods/frame1.png Graphic file (type png)
+<text/figures/methods/frame2.png, id=42, 314.17375pt x 157.58875pt>
+File: text/figures/methods/frame2.png Graphic file (type png)
 
-<use text/figures/methods/frame1.png>
-Package pdftex.def Info: text/figures/methods/frame1.png used on input line 64.
+<use text/figures/methods/frame2.png>
+Package pdftex.def Info: text/figures/methods/frame2.png used on input line 45.
 
-(pdftex.def)             Requested size: 141.97736pt x 72.76425pt.
+(pdftex.def)             Requested size: 141.97736pt x 71.21484pt.
+
+<text/figures/methods/eventHistogram.png, id=43, 885.3075pt x 140.525pt>
+File: text/figures/methods/eventHistogram.png Graphic file (type png)
+
+<use text/figures/methods/eventHistogram.png>
+Package pdftex.def Info: text/figures/methods/eventHistogram.png used on input 
+line 54.
+(pdftex.def)             Requested size: 258.13528pt x 40.9742pt.
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1470,6 +1473,10 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 (./text/conclusion.tex)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ (./text/acknowledgment.tex)
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1495,7 +1502,8 @@ ng> <./text/figures/avgDistanceSameLane.png> <./text/figures/leftIntersect.png>
 gures/passingIntersectOntoSameDirection.png> <./text/figures/systemForeslag4.pn
 g> <./text/figures/methods/dispEx1/inputL.png> <./text/figures/methods/dispEx1/
 postVDisp.png (PNG copy)> <./text/figures/methods/intersectionVoting.png> <./te
-xt/figures/methods/frame1.png>] (./poster.aux)
+xt/figures/methods/frame2.png> <./text/figures/methods/eventHistogram.png>]
+(./poster.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1504,10 +1512,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26339 strings out of 493117
- 626988 string characters out of 6135433
- 917639 words of memory out of 5000000
- 29235 multiletter control sequences out of 15000+600000
+ 26421 strings out of 493117
+ 629398 string characters out of 6135433
+ 920639 words of memory out of 5000000
+ 29313 multiletter control sequences out of 15000+600000
  51418 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,22n,96p,796b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1517,10 +1525,10 @@ al/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on poster.pdf (1 page, 2194854 bytes).
+Output written on poster.pdf (1 page, 2140918 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

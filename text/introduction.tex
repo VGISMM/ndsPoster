@@ -5,15 +5,15 @@ We introduce a stereo vision system for automatic NDS data reduction on both day
 
 \begin{figure}[H]
   \centering
-  \begin{tabular}{cc}
-    \subfloat[Average number of cars in front of ego-vehicle.]{\includegraphics[width=0.46\textwidth]{text/figures/numOfObjects.png} \label{fig:introduction:semantics:a}} &
-    \subfloat[Distance to rear-end of vehicle directly in front.]{\includegraphics[width=0.46\textwidth]{text/figures/avgDistanceSameLane.png} \label{fig:introduction:semantics:b}}\\
+  \begin{tabular}{ccc}
+    \subfloat[Average number of cars in front of ego-vehicle.]{\includegraphics[width=0.28\textwidth]{text/figures/numOfObjects.png} \label{fig:introduction:semantics:a}} &
+    \subfloat[Distance to rear-end of vehicle directly in front.]{\includegraphics[width=0.28\textwidth]{text/figures/avgDistanceSameLane.png} \label{fig:introduction:semantics:b}} &
     
-    \subfloat[Other vehicle entering intersection - left turn across path.]{\includegraphics[width=0.46\textwidth]{text/figures/leftIntersect.png} \label{fig:introduction:semantics:c}} &
-    \subfloat[Other vehicle entering intersection - turning onto opposite direction.]{\includegraphics[width=0.46\textwidth]{text/figures/turningO.png} \label{fig:introduction:semantics:d}}\\
+    \subfloat[Other vehicle entering intersection - left turn across path.]{\includegraphics[width=0.28\textwidth]{text/figures/leftIntersect.png} \label{fig:introduction:semantics:c}} \\
+    \subfloat[Other vehicle entering intersection - turning onto opposite direction.]{\includegraphics[width=0.28\textwidth]{text/figures/turningO.png} \label{fig:introduction:semantics:d}}&
     
-    \subfloat[Other vehicle entering intersection - straight across path.]{\includegraphics[width=0.46\textwidth]{text/figures/passingIntersect.png} \label{fig:introduction:semantics:e}} &
-    \subfloat[Other vehicle entering intersection - turning same direction.]{\includegraphics[width=0.46\textwidth]{text/figures/passingIntersectOntoSameDirection.png} \label{fig:introduction:semantics:f}}
+    \subfloat[Other vehicle entering intersection - straight across path.]{\includegraphics[width=0.28\textwidth]{text/figures/passingIntersect.png} \label{fig:introduction:semantics:e}} &
+    \subfloat[Other vehicle entering intersection - turning same direction.]{\includegraphics[width=0.28\textwidth]{text/figures/passingIntersectOntoSameDirection.png} \label{fig:introduction:semantics:f}}
   \end{tabular}
   \caption{Drive events that can be automatically detected by the method proposed in this paper. Green car is ego vehicle. Red cars are other vehicles. 
 %(a) Average number of cars in front of ego-vehicle (b) Distance to rear-end of vehicle directly in front. (c) Other vehicle entering intersection - left turn across path (d) Other vehicle entering intersection - turning onto opposite direction (e) Other vehicle entering intersection - straight across path (f) Other vehicle entering intersection - turning same direction.
@@ -27,3 +27,5 @@ The contributions made with this research are:\\
 \item Introducing a new NDS event: Average number of vehicles in front of the ego vehicle. (Figure \ref{fig:introduction:semantics:a}).
 \item Introducing a new NDS event: Average distance to vehicles directly in front of the ego vehicle. (Figure \ref{fig:introduction:semantics:b}).
 \end{itemize}
+
+\vspace{9pt}

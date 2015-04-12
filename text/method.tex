@@ -12,19 +12,8 @@ A Bumblebee XB3 stereo camera is used to acquire stereo image pairs with an aver
 %The road surface is removed using the detected line in a corresponding v-disparity. The remaining pixels are considered vehicle candidate pixels. These pixels are projected into 3D world coordinates and outliers are removed. Segmentation into clusters is done by grouping points that are close neighbors into the same clusters. Each sufficiently big cluster is regarded as a detected vehicle. Finally, the detected vehicles are tracked and NDS event are detected and logged in a drive analysis report. \\[5pt]
 
 \textbf{Generate Disparity Map \& Noise Removal}\\
-A disparity map is generated using OpenCV's SGBM implementation. For reducing the noise, a so called LR-RL consistency check is done. %\cite{HirschmullerRLandSGBM}
+A disparity map is generated using OpenCV's SGBM implementation. For reducing the noise, a so called LR-RL consistency check is done \cite{HirschmullerRLandSGBM}.
 In case of a disparity difference in the consistency check, the lowest value is selected as the output pixel. Finally by assuming that a disparity value of a pixel between frames does not erratically change. A monocular color check is done in to remove pixels that consist of dark regions.
-%
-%\begin{figure}[H]
-%  \centering
-%  \begin{tabular}{cc}
-%    \subfloat[A rectified image captured]{\includegraphics[width=0.22\textwidth]{text/figures/methods/dispEx1/inputL.png} \label{fig:methods::disparity:dispEx1:inputl}} &
-%    \subfloat[Noise reduced Disparity image.]{\includegraphics[width=0.22\textwidth]{text/figures/methods/dispEx1/postDarkImage.png} \label{fig:methods::disparity:dispEx1:disparityImg}}\\
-%  \end{tabular}
-%  \caption{Result of Generate Disparity Map \& Noise Removal.}
-%\label{fig:methods::disparity:dispEx1:inpusstl}
-%\end{figure}
-%
 
 \textbf{Road Surface Removal}\\
 The road surface is found by searching for the most significant line in the V-disparity using RANSAC. Additionally, the line parameters are filtered using a Kalman filter to smooth out faulty road surface detections. The calculated line is then used as a threshold for locating pixels belonging to objects above the road surface. In Figure \ref{fig:methods::disparity:dispEx1:postVdisp} the input and noise and road removed disparity map are seen.
@@ -49,37 +38,22 @@ The acquired point clouds are post processed using a band-bass filter to remove 
 \textbf{NDS Event Detection}\\
 For compensating for the subject vehicle's ego-motion while e.g. approaching an intersection, we utilize the \textit{LIBVISO2: C++ Library for Visual Odometry 2} \cite{Geiger2011IV}. NDS events are detected by looking at the movement history of other vehicles with regard to the ego vehicle. 
 
-%\begin{figure}[H]
-%\centering
-%     \includegraphics[width=0.3\textwidth]{text/figures/methods/intersectionVoting.png}
-%     \caption{Illustration of various movements that are detected by the system. 
-%     %Every movement is seen from the viewpoint of the ego vehicle. S (same direction), SR (same direction and towards the right), SL (same direction and towards the left), O (opposite direction), OR (opposite direction and towards the right), OL (opposite direction and towards the left), R (right), L (left).
-%     }
-%     \label{methods::intersectionVoting}
-%\end{figure}
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
     \subfloat[]{\includegraphics[width=0.22\textwidth]{text/figures/methods/intersectionVoting.png} \label{fig:methods::intersectionVoting}} &
-    \subfloat[]{\includegraphics[width=0.22\textwidth]{text/figures/methods/frame1.png} \label{fig:methods::disparity:dispEx1:postVDisp}}\\
+    \subfloat[]{\includegraphics[width=0.22\textwidth]{text/figures/methods/frame2.png} \label{fig:methods::disparity:dispEx1:postVDisp}}\\
   \end{tabular}
   \caption{(a) Illustration of various movements that are detected by the system. (b) NDS detection example.}
 \label{fig:methods::disparity:dispEx1:postVdisp}
 \end{figure}
 
-For all detected vehicles, individual frame to frame movements are categorized to form a a histogram of events for determining which NDS events have occurred. 
-%\begin{figure}[H]
-%\centering
-%     \includegraphics[width=0.3\textwidth]{text/figures/methods/eventHistogram.png}
-%     \caption{Example of histogram of detected movements.}
-%     \label{methods::histogram}
-%\end{figure}
-
-
-
-
-
-
-
-
+For all detected vehicles, individual frame to frame movements are categorized to form a a histogram of events for determining which NDS events have occurred. An example of such a histogram is seen in Figure \ref{methods::histogram}.
+\begin{figure}[H]
+\centering
+     \includegraphics[width=0.4\textwidth]{text/figures/methods/eventHistogram.png}
+     \caption{Example of histogram of detected movements.}
+     \label{methods::histogram}
+\end{figure}
 \end{multicols}
+
