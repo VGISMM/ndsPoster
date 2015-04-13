@@ -21,15 +21,17 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{euTrafficStats}
-European{\ }Road{\ }Safety{\ }Observatory, ``Traffic safety basic facts 2012 -
-  motorways,'' 2012.
-
 \bibitem{HirschmullerRLandSGBM}
 H.~Hirschmuller, ``Accurate and efficient stereo processing by semi-global
   matching and mutual information,'' in \emph{Computer Vision and Pattern
   Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on}, vol.~2,
   June 2005, pp. 807--814 vol. 2.
+
+\bibitem{labayrade2002real}
+R.~Labayrade, D.~Aubert, and J.-P. Tarel, ``Real time obstacle detection in
+  stereovision on non flat road geometry through" v-disparity"
+  representation,'' in \emph{Intelligent Vehicle Symposium, 2002. IEEE},
+  vol.~2.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2002, pp. 646--651.
 
 \bibitem{Geiger2011IV}
 A.~Geiger, J.~Ziegler, and C.~Stiller, ``Stereoscan: Dense 3d reconstruction in

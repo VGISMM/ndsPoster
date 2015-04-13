@@ -16,43 +16,43 @@ Warning--I didn't find a database entry for "bal:cha:gra:pae"
 Done.
 You've used 3 entries,
             4039 wiz_defined-function locations,
-            831 strings with 7786 characters,
-and the built_in function-call counts, 1950 in all, are:
-= -- 138
-> -- 35
-< -- 16
-+ -- 17
-- -- 5
-* -- 103
-:= -- 311
-add.period$ -- 6
+            832 strings with 7895 characters,
+and the built_in function-call counts, 2644 in all, are:
+= -- 190
+> -- 52
+< -- 26
++ -- 27
+- -- 7
+* -- 141
+:= -- 383
+add.period$ -- 7
 call.type$ -- 3
-change.case$ -- 4
-chr.to.int$ -- 42
+change.case$ -- 3
+chr.to.int$ -- 66
 cite$ -- 3
-duplicate$ -- 131
-empty$ -- 172
-format.name$ -- 6
-if$ -- 431
+duplicate$ -- 176
+empty$ -- 235
+format.name$ -- 9
+if$ -- 605
 int.to.chr$ -- 0
 int.to.str$ -- 3
-missing$ -- 24
+missing$ -- 30
 newline$ -- 32
 num.names$ -- 3
-pop$ -- 59
+pop$ -- 75
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 140
+skip$ -- 195
 stack$ -- 0
-substring$ -- 96
-swap$ -- 100
-text.length$ -- 2
+substring$ -- 150
+swap$ -- 144
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 3
 warning$ -- 0
-while$ -- 6
+while$ -- 10
 width$ -- 4
-write$ -- 47
+write$ -- 50
 (There was 1 warning)

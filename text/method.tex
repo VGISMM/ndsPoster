@@ -15,7 +15,7 @@ A Bumblebee XB3 stereo camera is used to acquire stereo image pairs with an aver
 A disparity map is generated using OpenCV's SGBM implementation. For noise reduction, a LR-RL consistency check is done \cite{HirschmullerRLandSGBM}. In case of a disparity differences in the consistency check, the lowest value is selected as the output pixel. A temporal consistency check assumes that a pixel's disparity value does not change erratically between frames. Finally, a monocular color check removes pixels from extremely light and dark regions.
 
 \textbf{Road Surface Removal}\\
-The road surface is found by searching for the most significant line in the V-disparity using RANSAC. Additionally, the line parameters are filtered using a Kalman filter to smooth out faulty road surface detections. The parameters are then used to remove pixels for everything not above the road surface. The remaining pixels are considered vehicle candidate disparity pixels. In Figure \ref{fig:methods::disparity:dispEx1:postVdisp} the left input image and the vehicle candidate disparity map are shown.
+The road surface is found by searching for the most significant line in the V-disparity\cite{labayrade2002real} using RANSAC. Additionally, the line parameters are filtered using a Kalman filter to smooth out faulty road surface detections. The parameters are then used to remove pixels for everything not above the road surface. The remaining pixels are considered vehicle candidate disparity pixels. In Figure \ref{fig:methods::disparity:dispEx1:postVdisp} the left input image and the vehicle candidate disparity map are shown.
 
 \begin{figure}[H]
   \centering
@@ -47,12 +47,13 @@ For compensating for the subject vehicle's ego-motion while e.g. approaching an 
 \label{fig:methods::disparity:dispEx1:postVdisp}
 \end{figure}
 
-For all detected vehicles, individual frame to frame movements are categorized to form a a histogram of events for determining which NDS events have occurred. An example of such a histogram is seen in Figure \ref{methods::histogram}.
-\begin{figure}[H]
-\centering
-     \includegraphics[width=0.4\textwidth]{text/figures/methods/eventHistogram.png}
-     \caption{Example of histogram of detected movements.}
-     \label{methods::histogram}
-\end{figure}
+For all detected vehicles, individual frame to frame movements are categorized to form a a histogram of events for determining which NDS events have occurred. 
+%An example of such a histogram is seen in Figure \ref{methods::histogram}.
+%\begin{figure}[H]
+%\centering
+%     \includegraphics[width=0.4\textwidth]{text/figures/methods/eventHistogram.png}
+%     \caption{Example of histogram of detected movements.}
+%     \label{methods::histogram}
+%\end{figure}
 \end{multicols}
 
