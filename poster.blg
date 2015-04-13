@@ -14,45 +14,45 @@ Warning--I didn't find a database entry for "bal:cha:gra:pae"
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 2 entries,
+You've used 3 entries,
             4039 wiz_defined-function locations,
-            823 strings with 7526 characters,
-and the built_in function-call counts, 862 in all, are:
-= -- 56
-> -- 17
-< -- 0
-+ -- 8
-- -- 4
-* -- 50
-:= -- 164
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 3
-chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 63
-empty$ -- 80
-format.name$ -- 5
-if$ -- 171
+            831 strings with 7786 characters,
+and the built_in function-call counts, 1950 in all, are:
+= -- 138
+> -- 35
+< -- 16
++ -- 17
+- -- 5
+* -- 103
+:= -- 311
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 4
+chr.to.int$ -- 42
+cite$ -- 3
+duplicate$ -- 131
+empty$ -- 172
+format.name$ -- 6
+if$ -- 431
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 14
-newline$ -- 29
-num.names$ -- 2
-pop$ -- 35
+int.to.str$ -- 3
+missing$ -- 24
+newline$ -- 32
+num.names$ -- 3
+pop$ -- 59
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 60
+skip$ -- 140
 stack$ -- 0
-substring$ -- 4
-swap$ -- 35
-text.length$ -- 0
+substring$ -- 96
+swap$ -- 100
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 2
+type$ -- 3
 warning$ -- 0
-while$ -- 2
-width$ -- 3
-write$ -- 37
+while$ -- 6
+width$ -- 4
+write$ -- 47
 (There was 1 warning)
