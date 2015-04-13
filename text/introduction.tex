@@ -1,7 +1,9 @@
-In order to prevent road accidents, a lot of research has been done in Advanced Driver Assistant Systems (ADAS), where the purpose is to utilize e.g. computer vision systems to assist the driver and prevent accidents while on the road. Most of these systems are, however, evaluated on daytime scenarios, which in 2010 represented 46.2 \% of all accidents on motorways in 20 European countries \cite{euTrafficStats}.
-It is essential to address the nighttime scenarios, as 36.1 \% of motorway accidents happened in low light conditions.
+%In order to prevent road accidents, a lot of research has been done in Advanced Driver Assistant Systems (ADAS), where the purpose is to utilize e.g. computer vision systems to assist the driver and prevent accidents while on the road. Most of these systems are, however, evaluated on daytime scenarios, which in 2010 represented 46.2 \% of all accidents on motorways in 20 European countries \cite{euTrafficStats}.
+%It is essential to address the nighttime scenarios, as 36.1 \% of motorway accidents happened in low light conditions.
 
-We introduce a stereo-vision system for automatic NDS data reduction on both day and nighttime data. This enables detection and tracking of vehicles in scenarios that would be problematic for monocular detectors. The system proposed in this paper will be limited to handling a handful of NDS events, which especially benefit from the extra dimension in stereo-vision. The NDS events considered in this paper are illustrated in Figure \ref{fig:introduction:semantics}. Monocular systems usually have problems dealing with occlusions and are in some cases using classifiers based on appearance, which require a large amount of training data for dealing with detection of car from the many possible angles and light conditions. 
+We introduce a stereo-vision system for automatic Naturalistic Driving Study (NDS) data reduction on both day and nighttime data. The purpose of NDS is to provides insight in the patterns and behaviors of drivers during near-crashes and crashes. Since NDS in conducted on large amounts of data, it is extremely time consuming to analyses. Automated solutions, that can sort through and categorize the collected data, are therefore sought after.
+
+A stereo vision based system enables detection and tracking of vehicles in scenarios that would be problematic for monocular detectors. The system proposed in this paper will be limited to handling a handful of NDS events, which especially benefit from the extra dimension in stereo-vision. The NDS events considered in this paper are illustrated in Figure \ref{fig:introduction:semantics}. Monocular systems usually have problems dealing with occlusions and are in some cases using classifiers based on appearance, which require a large amount of training data for dealing with detection of car from the many possible angles and light conditions. 
 
 \begin{figure}[H]
   \centering
@@ -21,7 +23,7 @@ We introduce a stereo-vision system for automatic NDS data reduction on both day
 \label{fig:introduction:semantics}
 \end{figure}
 
-The contributions made with this research are:\\
+Our contributions are:\\
 \begin{itemize}
 \item Using stereo-vision for automatic data reduction for NDS on both day and nighttime data, with focus on intersections (Figure \ref{fig:introduction:semantics:c}, \ref{fig:introduction:semantics:d}, \ref{fig:introduction:semantics:e}, \ref{fig:introduction:semantics:f}).
 \item Introducing a new NDS event: Average number of vehicles in front of the ego vehicle. (Figure \ref{fig:introduction:semantics:a}).
