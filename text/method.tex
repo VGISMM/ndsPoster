@@ -1,25 +1,32 @@
+\vspace*{-1.5mm}
 \begin{multicols}{2}   
-A Bumblebee XB3 stereo camera is used to acquire stereo image pairs with an average rate of 11 FPS in an resolution of 1280x960.  
-For generating the disparity map, the OpenCV's SGBM\cite{HirschmullerRLandSGBM} implementation is used.
-Noise is removed using the
-The road surface is found by searching for the most significant line in the V-disparity\cite{labayrade2002real} using RANSAC. Additionally, the line parameters are filtered using a Kalman filter to smooth out faulty road surface detections. 
-Using the camera's focal length and baseline, along with the calculated disparity, the actual distance to objects in the camera's view can be found. %The remaining $x$ and $y$ component of the world coordinate are found using the column and row index of the disparity pixel.
-The acquired point clouds are post processed using a band-bass filter to remove near and distant points, downsampled using a voxel grid, and removing outliers. Clusters are found by creating k-d tree, and for each point finding neighbors within a specified radius. The clusters center point is used for nearest neighbor tracking between frame and used to determine the distance from ego vehicle to detected vehicle.
-
-For compensating for the subject vehicle's ego-motion while e.g. approaching an intersection, we utilize the \textit{LIBVISO2: C++ Library for Visual Odometry 2} \cite{Geiger2011IV}. 
-
-NDS events are detected by looking at the movement history of other vehicles with regard to the ego vehicle. For all detected vehicles, individual frame to frame movements are categorized to form a histogram of events for determining which NDS events have occurred. 
-
-An overview of the system is shown in Figure \ref{systemOverview::systemOverview}. The final output is an event report.
+A Bumblebee XB3 stereo camera is used to acquire \textbf{stereo images} with an average rate of 15 FPS in an resolution of 1280x960. For generating the \textbf{disparity map}, the OpenCV's SGBM\cite{HirschmullerRLandSGBM} implementation is used. \textbf{Noise} is removed using LR-RL consistency check, temporal information, and a monocular color check.
+The \textbf{road surface} is found by searching for the most significant line in the V-disparity\cite{labayrade2002real} using RANSAC. Additionally, the line parameters are filtered using a Kalman filter to smooth out faulty road surface detections. 
+Objects are projected to 3D using the camera's properties, which result in 3D \textbf{point cloud} representations of the segmented objects.
+%Using the camera's focal length and baseline, along with the calculated disparity, the actual distance to objects in the camera's view can be found. 
+The acquired point clouds are post processed using a band-bass filter to remove near and distant points, downsampled using a voxel grid, and outliers are removed. \textbf{Clusters} are found by creating a k-d tree, which organize points according to distance to neighbors.
+%and for each point finding neighbors within a specified radius. 
 \end{multicols}
-\vspace*{-5mm}
+
+\vspace*{-2.5mm}
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{text/figures/methods/flowChart.png}
   \captionof{figure}{Overview of the stages used in the proposed system for automatic detection of critical events.}
   \label{systemOverview::systemOverview}
 \end{figure}
+%\vspace*{-7mm}
+\begin{multicols}{2}   
+The clusters' center points are used for nearest neighbor \textbf{tracking} between frames and for determining the distance from ego-vehicle to detected vehicles.
+For \textbf{ego-motion compensating} while approaching an intersection, we utilize the \textit{LIBVISO2: C++ Library for Visual Odometry 2} \cite{Geiger2011IV}. 
+Events are detected by looking at the \textbf{movement} history of other vehicles. For all detected vehicles, individual frame to frame movements are categorized to form a histogram of movements for \textbf{event classification}.
 
+An overview of the system is shown in Figure \ref{systemOverview::systemOverview}. The final output is an event report.
+
+\end{multicols}
+
+
+%\vspace*{2pt}
 
 %
 %

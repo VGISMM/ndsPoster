@@ -3,8 +3,8 @@
 
 %We introduce a stereo-vision system for automatic Naturalistic Driving Study (NDS) data reduction on both day and nighttime data. The purpose of NDS is to provides insight in the patterns and behaviors of drivers during near-crashes and crashes. Since NDS in conducted on large amounts of data, it is extremely time consuming to analyses. Automated solutions, that can sort through and categorize the collected data, are therefore sought after.
 %
-We introduce a stereo-vision based system that enables automatic event detection based on detection and tracking of vehicles in scenarios that usually would be highly problematic for monocular detectors. The purpose is to provides insight in the patterns and behaviors of drivers during near-crashes and crashes. The proposed system will be limited to only handling a handful of events, which especially benefit from the extra dimension gained with stereo-vision. The events considered in this paper are illustrated in Figure \ref{fig:introduction:semantics}. \cite{philipsen2015NDS} 
-Monocular systems usually have problems dealing with occlusions and are in some cases using classifiers based on appearance, which require a large amount of training data for dealing with detection of car from the many possible angles and light conditions. 
+We introduce a stereo-vision based system that enables automatic event detection based on detection and tracking of vehicles in scenarios that usually would be highly problematic for monocular detectors. The purpose is to provides insight into patterns and behaviors of drivers during near-crashes and crashes. The proposed system will be limited to only handling a handful of events, which especially benefit from the extra dimension gained with stereo-vision. The events considered in this paper are illustrated in Figure \ref{fig:introduction:semantics}.
+Monocular systems usually have problems dealing with occlusions and are in some cases using classifiers based on appearance, which require a large amount of training data for dealing with detection of vehicles from the many possible viewpoints and light conditions. 
 \vspace*{-3mm}
 \begin{figure}[H]
   \centering
@@ -18,7 +18,7 @@ Monocular systems usually have problems dealing with occlusions and are in some 
     \subfloat[\tiny{Other vehicle entering intersection - straight across path.}]{\includegraphics[width=0.28\textwidth]{text/figures/passingIntersect.png} \label{fig:introduction:semantics:e}} &
     \subfloat[\tiny{Other vehicle entering intersection - turning same direction.}]{\includegraphics[width=0.28\textwidth]{text/figures/passingIntersectOntoSameDirection.png} \label{fig:introduction:semantics:f}}
   \end{tabular}
-  \caption{\scriptsize{Critical events that can be automatically detected by the proposed method. Green car is ego vehicle. Red cars are other vehicles.} 
+  \caption{\scriptsize{Critical events that can be automatically detected by the proposed method. Green car is ego vehicle. Red cars are other vehicles.\cite{philipsen2015NDS} } 
 %(a) Average number of cars in front of ego-vehicle (b) Distance to rear-end of vehicle directly in front. (c) Other vehicle entering intersection - left turn across path (d) Other vehicle entering intersection - turning onto opposite direction (e) Other vehicle entering intersection - straight across path (f) Other vehicle entering intersection - turning same direction.
 }
 \label{fig:introduction:semantics}
