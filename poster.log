@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  14 APR 2015 22:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  14 APR 2015 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1774,20 +1774,18 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 7.59998pt on input line 9.
 
-<text/figures/methods/intersectionDay/allInOne.png, id=38, 3742.98375pt x 1178.
-4025pt>
-File: text/figures/methods/intersectionDay/allInOne.png Graphic file (type png)
+<text/figures/methods/flowChart.png, id=38, 3548.25626pt x 1135.24126pt>
+File: text/figures/methods/flowChart.png Graphic file (type png)
 
- <use text/figures/methods/intersectionDay/allInOne.png>
-Package pdftex.def Info: text/figures/methods/intersectionDay/allInOne.png used
- on input line 18.
-(pdftex.def)             Requested size: 478.45703pt x 150.62642pt.
+<use text/figures/methods/flowChart.png>
+Package pdftex.def Info: text/figures/methods/flowChart.png used on input line 
+18.
+(pdftex.def)             Requested size: 478.45703pt x 153.07773pt.
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-(./text/results.tex
+ (./text/results.tex
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 7.59998pt on input line 23.
 LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <8> not available
@@ -1798,7 +1796,8 @@ LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- (./text/conclusion.tex)
+
+(./text/conclusion.tex)
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1830,15 +1829,15 @@ Overfull \hbox (0.31683pt too wide) in paragraph at lines 268--307
 bles/aau_logo_new_neg.pdf> <./preambles/all.png> <./text/figures/numOfObjects.p
 ng> <./text/figures/avgDistanceSameLane.png> <./text/figures/leftIntersect.png>
  <./text/figures/turningO.png> <./text/figures/passingIntersect.png> <./text/fi
-gures/passingIntersectOntoSameDirection.png> <./text/figures/methods/intersecti
-onDay/allInOne.png>] (./poster.aux)
+gures/passingIntersectOntoSameDirection.png> <./text/figures/methods/flowChart.
+png>] (./poster.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
  26912 strings out of 493117
- 634922 string characters out of 6135433
+ 634847 string characters out of 6135433
  913486 words of memory out of 5000000
  29763 multiletter control sequences out of 15000+600000
  84370 words of font info for 138 fonts, out of 8000000 for 9000
@@ -1850,7 +1849,7 @@ al/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 4413217 bytes).
+Output written on poster.pdf (1 page, 3682725 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
