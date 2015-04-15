@@ -1,7 +1,8 @@
-The proposed system is evaluated on 216 day and 367 night time frames. In Table \ref{systemOverview::derivedSemantics:Results} the results are seen, where GT is the ground truth of NDS events manually labeled and SO is the system output.
-%\begin{table}
-%\caption{ }  
-\captionof{table}{Summary of drive analysis from NDS. The syntax for the results are [SO/GT]. P and R is abbreviations for precision and recall, respectively.}
+The proposed system is evaluated on 216 day and 367 night time frames. In Table \ref{systemOverview::derivedSemantics:Results} the results are seen, where GT is the ground truth of events manually labeled and SO is the system output. The proposed system have an overall precision of 0.9375 and an overall recall of 0.71.
+\vspace*{-3mm}
+\begin{center}
+\captionof{table}{Summary of event report analysis. The syntax for the results are [SO/GT]. P and R is abbreviations for precision and recall, respectively.}
+\resizebox{0.95\textwidth}{!}{%
   \begin{tabular}{l r r r r r}
    \toprule
  \textbf{\textit{Drive Behavior Event}}& \textbf{Daytime} & \textbf{Nighttime} & \textbf{P} & \textbf{R} \\
@@ -19,4 +20,5 @@ The proposed system is evaluated on 216 day and 367 night time frames. In Table 
   \end{tabular}
   
 %\end{table}
-\vspace{5pt}
+}
+\end{center}

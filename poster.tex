@@ -13,7 +13,7 @@
 %  GNU General Public License for more details.
 %
 %  You can find the GNU General Public License at <http://www.gnu.org/licenses/>. RATIO: 1,1165048544
-\documentclass[paperwidth=48in,paperheight=42in,landscape]{preambles/baposter}
+\documentclass[paperwidth=36in,paperheight=27in,landscape,11pt]{preambles/baposter}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Language, Encoding and Fonts
 % http://en.wikibooks.org/wiki/LaTeX/Internationalization
@@ -70,12 +70,17 @@
 \usepackage{caption}
 \captionsetup{
 justification=centering,
-  font=small,% set font size to footnotesize
+  font=scriptsize,% set font size to footnotesize
   labelfont=bf % bold label (e.g., Figure 3.2) font
 }
+\captionsetup[subfloat]{
+	labelfont={scriptsize}
+	,textfont={scriptsize}}
 % Make the standard latex tables look so much better
 \usepackage{array,booktabs}
 \usepackage{multicol}
+\usepackage{txfonts}
+
 
 % For creating beautiful plots
 \usepackage{pgfplots}
@@ -168,6 +173,7 @@ justification=centering,
 % Document Start 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+\fontsize{12pt}{12pt}\selectfont
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Some changes that cannot be made in the preamble
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -225,15 +231,17 @@ justification=centering,
 }
 %the poster title
 {\color{white}\bf
-  Night-Time Drive Analysis using Stereo-Vision for Data Reduction in Naturalistic Driving Studies
+ \LARGE{
+  Vehicle and Critical Event Detection in Night by Robust Stereo Analysis
+ }
 }
 %the author(s)
-{\color{white}\small
+{\color{white}\scriptsize
   \vspace{0.7em} \begin{large} \textit{Mark Philip Philipsen} \& \textit{Morten Bornø Jensen} \end{large} \\[0.7em]
    %mphili10@student.aau.dk, mbje10@student.aau.dk\\[0.3em]
 %Visual Analysis of People Lab, Aalborg University, Denmark \\
 %Computer Vision and Robotics Research Laboratory, University of California, San Diego
-\textit{Advisor: Professor Mohan M. Trivedi}
+\small\textit{Advisors: Mohan M. Trivedi \& Thomas B. Moeslund}
   %\begin{large}VGIS, Group: 13gr740, Aalborg University, Denmark, 2013\end{large}
 }
 %the logo (the logo on the right)
@@ -258,6 +266,7 @@ justification=centering,
 
 
 }
+\fontsize{8pt}{8pt}\selectfont
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % the actual content of the poster begins here
@@ -276,7 +285,7 @@ justification=centering,
 \input{text/results.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=conclusion,column=2,below=propsedMethod]{Conclusion}
+\begin{posterbox}[name=conclusion,column=2,below=propsedMethod]{Concluding Remarks}
 \input{text/conclusion.tex}
 \end{posterbox}
 
@@ -284,11 +293,15 @@ justification=centering,
 \input{text/acknowledgment.tex}
 \end{posterbox}
 
+\let\oldbibliography\thebibliography
+\renewcommand{\thebibliography}[1]{\oldbibliography{#1}
+\setlength{\itemsep}{0pt}} %Reducing spacing in the bibliography.
 \begin{posterbox}[name=references,column=0,below=abstract]{References}
 %%\input{introduction.tex}
 \nocite{bal:cha:gra:pae}
 \bibliographystyle{IEEEtran}
-\bibliography{literature}
+\scriptsize{
+\bibliography{literature}}
 \end{posterbox}
 
 \end{poster}
