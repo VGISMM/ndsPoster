@@ -1,5 +1,5 @@
-The proposed system is evaluated on 216 day and 367 night time frames. In Table \ref{systemOverview::derivedSemantics:Results} the results are seen, where GT is the \textit{ground truth} of events manually labeled and SO is the \textit{system output}. The proposed system have an overall precision of 0.9375 and an overall recall of 0.71.
-\vspace*{-2mm}
+The proposed system is evaluated on 4,992 day and 3,933 night time frames. In Table \ref{systemOverview::derivedSemantics:Results} the results are seen, where GT is the \textit{ground truth} of events manually labeled and SO is the \textit{system output}. The proposed system have an overall precision of 0.78 and recall of 0.72.
+\vspace*{-7mm}
 \begin{center}
 \captionof{table}{Summary of event report analysis. The syntax for the results are [SO/GT]. P and R are abbreviations for precision and recall, respectively.}
 \resizebox{0.95\textwidth}{!}{%
@@ -7,12 +7,12 @@ The proposed system is evaluated on 216 day and 367 night time frames. In Table 
    \toprule
  \textbf{\textit{Drive Behavior Event}}& \textbf{Daytime} & \textbf{Nighttime} & \textbf{P} & \textbf{R} \\
     \toprule
-    Right - straight across path & 34/38 & 8/15 & 1 & 0.71  \\ 
-    Left - straight across path & 14/21  &  2/4  & 1 & 0.58 \\
-    Left turn across path  & 14/12 & 12/6  & 0.75 & 0.69 \\ 
-    Turn onto opposite dir.  & 12/7  & 6/6  & 1 & 0.85 \\ 
-%    Long turn onto same dir. & 0/0  & 0/1  &  NA & NA \\ 
-%    Short turn onto same dir. & 0/0  & 0/0 & NA & NA\\ 
+    Right - straight across path & 35/32 & 5/19 & 0.95 & 0.63 \\ 
+    Left - straight across path & 45/34  &  11/33  & 0.87 & 0.67 \\
+    Left turn across path  & 5/5 & 20/1  & 0.75 & 1 \\ 
+    Turn onto opposite dir.  & 32/37  & 41/15  & 0.68 & 0.93 \\ 
+    Short turn onto same dir. & 7/5  & 9/5 & 0.63 & 1 \\ 
+    Long turn onto same dir. & 1/16  & 1/8  &  1 & 0.09 \\ 
     Avg. number of cars & 1.67/1.74 & 1.6/1.3 &  NA &NA  \\ 
     Avg. distance to car &  8.73 m &10.98 m &  NA& NA \\ 
     \bottomrule     
@@ -22,4 +22,3 @@ The proposed system is evaluated on 216 day and 367 night time frames. In Table 
 %\end{table}
 }
 \end{center}
-
