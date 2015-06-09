@@ -1,5 +1,5 @@
 The proposed system is evaluated on 4,992 day and 3,933 night time frames. In Table \ref{systemOverview::derivedSemantics:Results} the results are seen, where GT is the \textit{ground truth} of events manually labeled and SO is the \textit{system output}. The proposed system have an overall precision of 0.78 and recall of 0.72.
-\vspace*{-7mm}
+%\vspace*{-5mm}
 \begin{center}
 \captionof{table}{Summary of event report analysis. The syntax for the results are [SO/GT]. P and R are abbreviations for precision and recall, respectively.}
 \resizebox{0.95\textwidth}{!}{%
@@ -7,8 +7,8 @@ The proposed system is evaluated on 4,992 day and 3,933 night time frames. In Ta
    \toprule
  \textbf{\textit{Drive Behavior Event}}& \textbf{Daytime} & \textbf{Nighttime} & \textbf{P} & \textbf{R} \\
     \toprule
-    Right - straight across path & 35/32 & 5/19 & 0.95 & 0.63 \\ 
-    Left - straight across path & 45/34  &  11/33  & 0.87 & 0.67 \\
+    From Left To Right - straight across path & 35/32 & 5/19 & 0.95 & 0.63 \\ 
+    From Right to Left - straight across path & 45/34  &  11/33  & 0.87 & 0.67 \\
     Left turn across path  & 5/5 & 20/1  & 0.75 & 1 \\ 
     Turn onto opposite dir.  & 32/37  & 41/15  & 0.68 & 0.93 \\ 
     Short turn onto same dir. & 7/5  & 9/5 & 0.63 & 1 \\ 
@@ -19,7 +19,27 @@ The proposed system is evaluated on 4,992 day and 3,933 night time frames. In Ta
     \label{systemOverview::derivedSemantics:Results}   
   \end{tabular}
   
-%\end{table}
 }
 \end{center}
 
+%sasd
+%\begin{figure}[h]
+%\centering
+%     \includegraphics[width=0.2\textwidth]{text/figures/lefttrun2cars.png}
+%     \caption{Partially occluded vehicle detected in a left turn.}
+%     \label{fig:results:twoCars}
+%\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{text/figures/lefttrun2cars.png}
+  \captionof{figure}{Partially occluded vehicle detected in a left turn.}
+  \label{systemOverview::systemOverview}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{text/figures/distanceCarEvent.png}
+  \captionof{figure}{Distance to vehicle in front of ego-vehicle.}
+  \label{systemOverview::systemOverview}
+\end{figure}

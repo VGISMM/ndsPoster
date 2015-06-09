@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  9 JUN 2015 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  9 JUN 2015 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -460,10 +460,10 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
 \baposter@basemarginright=\skip67
 \baposter@basemarginleft=\skip68
 
-Paperwidth=2601.71999pt
-Paperheight=1951.29pt
-BasePaperwidth=759.7216pt
-BasePaperheight=569.7912pt
+Paperwidth=2560.74802pt
+Paperheight=3698.85826pt
+BasePaperwidth=747.75748pt
+BasePaperheight=1080.09415pt
 (/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -1254,9 +1254,13 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 
 LaTeX Warning: Unused global option(s):
-    [11pt].
+    [12pt].
 
-(./poster.aux)
+(./poster.aux
+
+LaTeX Warning: Label `systemOverview::systemOverview' multiply defined.
+
+)
 \openout1 = `poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 185.
@@ -1273,7 +1277,8 @@ LaTeX Font Info:    ... okay on input line 185.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 185.
 LaTeX Font Info:    Try loading font information for OMS+txsy on input line 185
 .
- (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 185.
@@ -1368,12 +1373,12 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(12.46262pt, 734.79637pt, 12.46262pt)
-* v-part:(T,H,B)=(12.46262pt, 544.86597pt, 12.46262pt)
-* \paperwidth=759.7216pt
-* \paperheight=569.7912pt
-* \textwidth=734.79637pt
-* \textheight=544.86597pt
+* h-part:(L,W,R)=(12.46262pt, 722.83224pt, 12.46262pt)
+* v-part:(T,H,B)=(12.46262pt, 1055.16891pt, 12.46262pt)
+* \paperwidth=747.75748pt
+* \paperheight=1080.09415pt
+* \textwidth=722.83224pt
+* \textheight=1055.16891pt
 * \oddsidemargin=-59.80737pt
 * \evensidemargin=-59.80737pt
 * \topmargin=-96.80737pt
@@ -1423,109 +1428,109 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 File: preambles/aau_logo_new_neg.pdf Graphic file (type pdf)
 
 <use preambles/aau_logo_new_neg.pdf>
-Package pdftex.def Info: preambles/aau_logo_new_neg.pdf used on input line 278.
+Package pdftex.def Info: preambles/aau_logo_new_neg.pdf used on input line 279.
 
-(pdftex.def)             Requested size: 81.08997pt x 53.12642pt.
+(pdftex.def)             Requested size: 157.03831pt x 102.88283pt.
 
 <preambles/all.png, id=30, 110.3322pt x 75.1608pt>
 File: preambles/all.png Graphic file (type png)
  <use preambles/all.png>
-Package pdftex.def Info: preambles/all.png used on input line 278.
-(pdftex.def)             Requested size: 77.98622pt x 53.12642pt.
+Package pdftex.def Info: preambles/all.png used on input line 279.
+(pdftex.def)             Requested size: 151.03464pt x 102.88283pt.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 278.
+(Font)              scaled to size 11.39996pt on input line 279.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 23.63593pt on input line 278.
+(Font)              scaled to size 23.63593pt on input line 279.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 278.
+(Font)              scaled to size 23.63593pt on input line 279.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 278.
+(Font)              scaled to size 16.41594pt on input line 279.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 278.
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 278.
+(Font)              scaled to size 13.67995pt on input line 279.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <12> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 278.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 279.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 278.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 278.
+(Font)              scaled to size 11.39996pt on input line 279.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 279.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 278.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 279.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 278.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 279.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 278.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 279.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 278.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 279.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 278.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 279.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 279.
+(Font)              scaled to size 7.59998pt on input line 280.
 
 (./text/introduction.tex
 <text/figures/numOfObjects.png, id=32, 1940.24875pt x 941.5175pt>
 File: text/figures/numOfObjects.png Graphic file (type png)
 
 <use text/figures/numOfObjects.png>
-Package pdftex.def Info: text/figures/numOfObjects.png used on input line 12.
-(pdftex.def)             Requested size: 64.3237pt x 31.20378pt.
+Package pdftex.def Info: text/figures/numOfObjects.png used on input line 6.
+(pdftex.def)             Requested size: 101.58255pt x 49.29105pt.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 12.
+(Font)              scaled to size 6.64998pt on input line 6.
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 6.
 
 <text/figures/avgDistanceSameLane.png, id=33, 1939.245pt x 907.39pt>
 File: text/figures/avgDistanceSameLane.png Graphic file (type png)
 
 <use text/figures/avgDistanceSameLane.png>
 Package pdftex.def Info: text/figures/avgDistanceSameLane.png used on input lin
-e 13.
-(pdftex.def)             Requested size: 64.3237pt x 30.08656pt.
+e 7.
+(pdftex.def)             Requested size: 101.58255pt x 47.51822pt.
 
 <text/figures/turningO.png, id=34, 1907.125pt x 892.33376pt>
 File: text/figures/turningO.png Graphic file (type png)
 
 <use text/figures/turningO.png>
-Package pdftex.def Info: text/figures/turningO.png used on input line 15.
-(pdftex.def)             Requested size: 64.3237pt x 30.09113pt.
+Package pdftex.def Info: text/figures/turningO.png used on input line 9.
+(pdftex.def)             Requested size: 101.58255pt x 47.51949pt.
 
 <text/figures/leftIntersect.png, id=35, 1907.125pt x 1204.5pt>
 File: text/figures/leftIntersect.png Graphic file (type png)
 
 <use text/figures/leftIntersect.png>
-Package pdftex.def Info: text/figures/leftIntersect.png used on input line 16.
-(pdftex.def)             Requested size: 64.3237pt x 40.61795pt.
+Package pdftex.def Info: text/figures/leftIntersect.png used on input line 10.
+(pdftex.def)             Requested size: 101.58255pt x 64.14328pt.
 
 <text/figures/passingIntersect.png, id=36, 1907.125pt x 1204.5pt>
 File: text/figures/passingIntersect.png Graphic file (type png)
 
 <use text/figures/passingIntersect.png>
 Package pdftex.def Info: text/figures/passingIntersect.png used on input line 1
-8.
-(pdftex.def)             Requested size: 64.3237pt x 40.61795pt.
+2.
+(pdftex.def)             Requested size: 101.58255pt x 64.14328pt.
 
 <text/figures/passingIntersectOntoSameDirection.png, id=37, 1907.125pt x 1204.5
 pt>
@@ -1533,20 +1538,25 @@ File: text/figures/passingIntersectOntoSameDirection.png Graphic file (type png
 )
  <use text/figures/passingIntersectOntoSameDirection.png>
 Package pdftex.def Info: text/figures/passingIntersectOntoSameDirection.png use
-d on input line 19.
-(pdftex.def)             Requested size: 64.3237pt x 40.61795pt.
+d on input line 13.
+(pdftex.def)             Requested size: 101.58255pt x 64.14328pt.
 
-Overfull \hbox (7.16548pt too wide) in paragraph at lines 11--23
+Overfull \hbox (6.7065pt too wide) in paragraph at lines 5--16
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 6.64998pt on input line 23.
+(Font)              scaled to size 6.64998pt on input line 16.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 288.
+(Font)              scaled to size 13.67995pt on input line 289.
 Missing character: There is no ; in font nullfont!
  (./text/method.tex
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
@@ -1558,7 +1568,7 @@ File: text/figures/methods/flowChart.png Graphic file (type png)
 <use text/figures/methods/flowChart.png>
 Package pdftex.def Info: text/figures/methods/flowChart.png used on input line 
 14.
-(pdftex.def)             Requested size: 478.45703pt x 149.86711pt.
+(pdftex.def)             Requested size: 470.48105pt x 147.37288pt.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <8> not available
 (Font)              Font shape `T1/txss/m/sl' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
@@ -1569,25 +1579,40 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  (./text/results.tex
 LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <8> not available
-(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 23.
+(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
-(Font)              scaled to size 7.59998pt on input line 23.
+(Font)              scaled to size 7.59998pt on input line 22.
+
+<text/figures/lefttrun2cars.png, id=39, 401.5pt x 151.06438pt>
+File: text/figures/lefttrun2cars.png Graphic file (type png)
+
+<use text/figures/lefttrun2cars.png>
+Package pdftex.def Info: text/figures/lefttrun2cars.png used on input line 35.
+(pdftex.def)             Requested size: 203.16512pt x 76.44249pt.
+
+<text/figures/distanceCarEvent.png, id=40, 351.3125pt x 125.97063pt>
+File: text/figures/distanceCarEvent.png Graphic file (type png)
+
+<use text/figures/distanceCarEvent.png>
+Package pdftex.def Info: text/figures/distanceCarEvent.png used on input line 4
+2.
+(pdftex.def)             Requested size: 203.16512pt x 72.85156pt.
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-(./text/conclusion.tex)
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- (./text/acknowledgment.tex)
+ (./text/conclusion.tex)
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
+(./text/acknowledgment.tex)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 
-LaTeX Warning: Citation `bal:cha:gra:pae' undefined on input line 311.
+
+LaTeX Warning: Citation `bal:cha:gra:pae' undefined on input line 312.
 
 (./poster.bbl
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <7> not available
@@ -1599,7 +1624,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (0.31683pt too wide) in paragraph at lines 278--317
+Overfull \hbox (0.31683pt too wide) in paragraph at lines 279--318
 [][]  [] 
  []
 
@@ -1610,16 +1635,20 @@ bles/aau_logo_new_neg.pdf> <./preambles/all.png> <./text/figures/numOfObjects.p
 ng> <./text/figures/avgDistanceSameLane.png> <./text/figures/turningO.png> <./t
 ext/figures/leftIntersect.png> <./text/figures/passingIntersect.png> <./text/fi
 gures/passingIntersectOntoSameDirection.png> <./text/figures/methods/flowChart.
-png>] (./poster.aux)
+png> <./text/figures/lefttrun2cars.png> <./text/figures/distanceCarEvent.png>] 
+(./poster.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 26915 strings out of 493117
- 634886 string characters out of 6135433
- 914925 words of memory out of 5000000
- 29772 multiletter control sequences out of 15000+600000
+ 26924 strings out of 493117
+ 635205 string characters out of 6135433
+ 915931 words of memory out of 5000000
+ 29779 multiletter control sequences out of 15000+600000
  79540 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,22n,96p,723b,1231s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1629,10 +1658,10 @@ exlive/2014/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive
 exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 2998344 bytes).
+Output written on poster.pdf (1 page, 3482642 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
