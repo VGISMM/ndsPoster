@@ -1,8 +1,9 @@
+\begin{multicols}{2}   
 The proposed system is evaluated on 4,992 day and 3,933 night time frames. In Table \ref{systemOverview::derivedSemantics:Results} the results are seen, where GT is the \textit{ground truth} of events manually labeled and SO is the \textit{system output}. The proposed system have an overall precision of 0.78 and recall of 0.72.
 %\vspace*{-5mm}
 \begin{center}
 \captionof{table}{Summary of event report analysis. The syntax for the results are [SO/GT]. P and R are abbreviations for precision and recall, respectively.}
-\resizebox{0.95\textwidth}{!}{%
+\resizebox{0.45\textwidth}{!}{%
   \begin{tabular}{l r r r r r}
    \toprule
  \textbf{\textit{Drive Behavior Event}}& \textbf{Daytime} & \textbf{Nighttime} & \textbf{P} & \textbf{R} \\
@@ -21,25 +22,19 @@ The proposed system is evaluated on 4,992 day and 3,933 night time frames. In Ta
   
 }
 \end{center}
-
-%sasd
-%\begin{figure}[h]
-%\centering
-%     \includegraphics[width=0.2\textwidth]{text/figures/lefttrun2cars.png}
-%     \caption{Partially occluded vehicle detected in a left turn.}
-%     \label{fig:results:twoCars}
-%\end{figure}
-
+In Figure \ref{systemOverview::distanceToVehicle} an example of the output from the system is seen. %This specific image is an example of the overlapping
+The new NDS event introduced with this work is the distance to vehicle in front of the ego-vehicle, which is measured using stereo-vision. In Figure \ref{systemOverview::distanceToVehicle} an example of this is seen where the distance of 12.6 meter is written in blue just above the center. This distance measure is also visible in Figure \ref{systemOverview::occludedVehicleDetected}.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{text/figures/lefttrun2cars.png}
+  \includegraphics[width=0.3\textwidth]{text/figures/lefttrun2cars.png}
   \captionof{figure}{Partially occluded vehicle detected in a left turn.}
-  \label{systemOverview::systemOverview}
+  \label{systemOverview::occludedVehicleDetected}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{text/figures/distanceCarEvent.png}
+  \includegraphics[width=0.3\textwidth]{text/figures/distanceCarEvent.png}
   \captionof{figure}{Distance to vehicle in front of ego-vehicle.}
-  \label{systemOverview::systemOverview}
+  \label{systemOverview::distanceToVehicle}
 \end{figure}
+\end{multicols}

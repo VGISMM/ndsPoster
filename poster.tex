@@ -288,31 +288,31 @@ justification=centering,
 \input{text/introduction.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=relatedWork,column=1,span=2]{Related Work}
+\begin{posterbox}[name=relatedWork,column=0,span=1,below=introduction]{Related Work}
 %\input{text/abstract.tex}
 \input{text/relatedWork.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=propsedMethod,column=1,span=2,below=relatedWork]{Proposed System}
+\begin{posterbox}[name=propsedMethod,column=1,span=2]{Proposed System}
 \input{text/method.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=results,column=1,below=propsedMethod]{Results}
+\begin{posterbox}[name=results,column=1,span=2,below=propsedMethod]{Results}
 \input{text/results.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=conclusion,column=2,below=propsedMethod]{Concluding Remarks}
+\begin{posterbox}[name=conclusion,column=2,below=results]{Concluding Remarks}
 \input{text/conclusion.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=acknowledgment,column=2,below=conclusion]{Acknowledgment}
+\begin{posterbox}[name=acknowledgment,column=3,below=results]{Acknowledgment}
 \input{text/acknowledgment.tex}
 \end{posterbox}
 
 \let\oldbibliography\thebibliography
 \renewcommand{\thebibliography}[1]{\oldbibliography{#1}
 \setlength{\itemsep}{0pt}} %Reducing spacing in the bibliography.
-\begin{posterbox}[name=references,column=0,below=introduction]{References}
+\begin{posterbox}[name=references,column=1,span=2,below=conclusion]{References}
 %%\input{introduction.tex}
 \nocite{bal:cha:gra:pae}
 \bibliographystyle{IEEEtran}

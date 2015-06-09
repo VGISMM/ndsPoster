@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  9 JUN 2015 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.4)  9 JUN 2015 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1256,14 +1256,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 LaTeX Warning: Unused global option(s):
     [12pt].
 
-(./poster.aux
-
-LaTeX Warning: Label `systemOverview::systemOverview' multiply defined.
-
-
-LaTeX Warning: Label `systemOverview::systemOverview' multiply defined.
-
-)
+(./poster.aux)
 \openout1 = `poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 185.
@@ -1280,8 +1273,7 @@ LaTeX Font Info:    ... okay on input line 185.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 185.
 LaTeX Font Info:    Try loading font information for OMS+txsy on input line 185
 .
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 185.
@@ -1591,24 +1583,24 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  (./text/results.tex
 LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <8> not available
-(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 22.
+(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
-(Font)              scaled to size 7.59998pt on input line 22.
+(Font)              scaled to size 7.59998pt on input line 23.
 
 <text/figures/lefttrun2cars.png, id=39, 401.5pt x 151.06438pt>
 File: text/figures/lefttrun2cars.png Graphic file (type png)
 
 <use text/figures/lefttrun2cars.png>
-Package pdftex.def Info: text/figures/lefttrun2cars.png used on input line 35.
-(pdftex.def)             Requested size: 203.16512pt x 76.44249pt.
+Package pdftex.def Info: text/figures/lefttrun2cars.png used on input line 29.
+(pdftex.def)             Requested size: 141.14574pt x 53.10612pt.
 
 <text/figures/distanceCarEvent.png, id=40, 351.3125pt x 125.97063pt>
 File: text/figures/distanceCarEvent.png Graphic file (type png)
 
 <use text/figures/distanceCarEvent.png>
-Package pdftex.def Info: text/figures/distanceCarEvent.png used on input line 4
-2.
-(pdftex.def)             Requested size: 203.16512pt x 72.85156pt.
+Package pdftex.def Info: text/figures/distanceCarEvent.png used on input line 3
+6.
+(pdftex.def)             Requested size: 141.14574pt x 50.61224pt.
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1652,15 +1644,12 @@ png> <./text/figures/lefttrun2cars.png> <./text/figures/distanceCarEvent.png>]
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 27014 strings out of 493117
- 637717 string characters out of 6135433
- 939931 words of memory out of 5000000
- 29866 multiletter control sequences out of 15000+600000
+ 27016 strings out of 493117
+ 637793 string characters out of 6135433
+ 941931 words of memory out of 5000000
+ 29868 multiletter control sequences out of 15000+600000
  79540 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,22n,96p,1298b,1231s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1670,7 +1659,7 @@ exlive/2014/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive
 exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 3489368 bytes).
+Output written on poster.pdf (1 page, 3489571 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
