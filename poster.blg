@@ -12,49 +12,47 @@ Warning--I didn't find a database entry for "bal:cha:gra:pae"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty year in HirschmullerRLandSGBM
-Warning--empty year in labayrade2002real
 
 Done.
-You've used 4 entries,
+You've used 19 entries,
             4039 wiz_defined-function locations,
-            832 strings with 8072 characters,
-and the built_in function-call counts, 1964 in all, are:
-= -- 118
-> -- 55
-< -- 0
-+ -- 26
-- -- 13
-* -- 100
-:= -- 317
-add.period$ -- 8
-call.type$ -- 4
-change.case$ -- 4
-chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 163
-empty$ -- 219
-format.name$ -- 16
-if$ -- 431
+            933 strings with 11457 characters,
+and the built_in function-call counts, 15954 in all, are:
+= -- 1229
+> -- 409
+< -- 140
++ -- 235
+- -- 74
+* -- 761
+:= -- 2248
+add.period$ -- 39
+call.type$ -- 19
+change.case$ -- 20
+chr.to.int$ -- 357
+cite$ -- 19
+duplicate$ -- 1119
+empty$ -- 1330
+format.name$ -- 86
+if$ -- 3743
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 33
-newline$ -- 35
-num.names$ -- 4
-pop$ -- 100
+int.to.str$ -- 19
+missing$ -- 187
+newline$ -- 80
+num.names$ -- 19
+pop$ -- 470
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 148
+skip$ -- 1233
 stack$ -- 0
-substring$ -- 4
-swap$ -- 81
-text.length$ -- 0
+substring$ -- 869
+swap$ -- 913
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 4
-warning$ -- 2
-while$ -- 4
-width$ -- 5
-write$ -- 52
-(There were 3 warnings)
+type$ -- 19
+warning$ -- 0
+while$ -- 71
+width$ -- 21
+write$ -- 196
+(There was 1 warning)

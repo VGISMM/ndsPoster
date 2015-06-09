@@ -283,17 +283,17 @@ justification=centering,
 % the actual content of the poster begins here
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{posterbox}[name=abstract,column=0]{Introduction}
+\begin{posterbox}[name=introduction,column=0]{Introduction}
 %\input{text/abstract.tex}
 \input{text/introduction.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=abstract,column=0]{Related Work}
+\begin{posterbox}[name=relatedWork,column=1,span=2]{Related Work}
 %\input{text/abstract.tex}
 \input{text/relatedWork.tex}
 \end{posterbox}
 
-\begin{posterbox}[name=propsedMethod,column=1,span=2]{Proposed System}
+\begin{posterbox}[name=propsedMethod,column=1,span=2,below=relatedWork]{Proposed System}
 \input{text/method.tex}
 \end{posterbox}
 
@@ -312,7 +312,7 @@ justification=centering,
 \let\oldbibliography\thebibliography
 \renewcommand{\thebibliography}[1]{\oldbibliography{#1}
 \setlength{\itemsep}{0pt}} %Reducing spacing in the bibliography.
-\begin{posterbox}[name=references,column=0,below=abstract]{References}
+\begin{posterbox}[name=references,column=0,below=introduction]{References}
 %%\input{introduction.tex}
 \nocite{bal:cha:gra:pae}
 \bibliographystyle{IEEEtran}
