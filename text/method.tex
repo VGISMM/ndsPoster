@@ -3,10 +3,7 @@
 A Bumblebee XB3 stereo camera is used to acquire \textbf{stereo images} with frame rate of 16 FPS in a resolution of 1280x960 each. For generating the \textbf{disparity map}, OpenCV's CPU implementation of  SGBM is used, it is based on the stereo correspondence algorithm proposed in \cite{HirschmullerRLandSGBM}. \textbf{Noise} is removed using a modified LR-RL consistency check where consistency conflicts are solved by keeping the lowest disparity value, instead of rejecting the pixel entirely. An additional temporal consistency check and a monocular color check is also introduced.
 The \textbf{road surface} is found by searching for the most significant line in the V-disparity \cite{labayrade2002real} using RANSAC. Additionally, the line parameters are filtered using a Kalman filter to smooth out faulty road surface detections. Following this the disparity pixels belonging to the road surface or noise below is removed and what remains is provisionally regarded as objects of interest. These objects are projected to 3D using the camera's properties, which result in a 3D \textbf{point cloud} representations of the segmented objects.
 %Using the camera's focal length and baseline, along with the calculated disparity, the actual distance to objects in the camera's view can be found. 
-The acquired point clouds are post processed using a band-bass filter to remove near and distant points, downsampled using a voxel grid, and outlier removal. \textbf{Clusters} are found by creating a k-d tree, which organize points according to distance to neighbors. The clusters' center points are used for nearest neighbor \textbf{tracking} between frames and for determining the distance from ego-vehicle to detected vehicles.
-For \textbf{ego-motion compensating} while the ego-vehicle is approaching an intersection, we utilize \textit{LIBVISO2: C++ Library for Visual Odometry 2} \cite{Geiger2011IV}. 
-Events are detected by looking at the \textbf{movement} history of other vehicles. For all detected vehicles, individual frame to frame movements are categorized to form a histogram of movements for the sequence, which is used for \textbf{event classification}.
-An overview of the system is shown in Figure \ref{systemOverview::systemOverview}. The final system output is an event report.
+The acquired point clouds are post processed using a band-bass filter to remove near and distant points, downsampled using a voxel grid, and outlier removal. \textbf{Clusters} are found by creating a k-d tree, which organize points according to distance to neighbors. 
 %and for each point finding neighbors within a specified radius. 
 \end{multicols}
 
@@ -17,13 +14,17 @@ An overview of the system is shown in Figure \ref{systemOverview::systemOverview
   \captionof{figure}{Critical event detection process flow.}
   \label{systemOverview::systemOverview}
 \end{figure}
-\vspace*{1pt}
+
 %\vspace*{-7mm}
-%\begin{multicols}{2}   
-%
-%
-%
-%\end{multicols}
+\begin{multicols}{2}   
+The clusters' center points are used for nearest neighbor \textbf{tracking} between frames and for determining the distance from ego-vehicle to detected vehicles.
+For \textbf{ego-motion compensating} while the ego-vehicle is approaching an intersection, we utilize \textit{LIBVISO2: C++ Library for Visual Odometry 2} \cite{Geiger2011IV}. 
+Events are detected by looking at the \textbf{movement} history of other vehicles. For all detected vehicles, individual frame to frame movements are categorized to form a histogram of movements for the sequence, which is used for \textbf{event classification}.
+An overview of the system is shown in Figure \ref{systemOverview::systemOverview}. The final system output is an event report.
+
+
+\end{multicols}
+%\vspace*{1pt}
 
 
 %\vspace*{2pt}

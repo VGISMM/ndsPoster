@@ -24,28 +24,27 @@
 \bibitem{philipsen2015NDS}
 M.~P. Philipsen, M.~B. Jensen, R.~K. Satzoda, M.~M. Trivedi, A.~Møgelmose, and
   T.~B. Moeslund, ``Night-time drive analysis using stereo-vision for data
-  reduction in naturalistic driving studies,'' in \emph{IEEE, Intelligent
-  Vehicle Symposium}, 2015.
+  reduction in naturalistic driving studies,'' in \emph{Intelligent Vehicle
+  Symposium (IV)}, 2015.
 
 \bibitem{raviLaneSemantics}
 R.~Satzoda and M.~Trivedi, ``Drive analysis using vehicle dynamics and
-  vision-based lane semantics,'' \emph{Intelligent Transportation Systems, IEEE
-  Transactions on}, pp. 1--10, 2014.
+  vision-based lane semantics,'' \emph{Intelligent Transportation
+  Systems(ITSC)}, pp. 1--10, 2014.
 
 \bibitem{raviOvertaking}
-------, ``Overtaking amp; receding vehicle detection for driver assistance and
-  naturalistic driving studies,'' in \emph{Intelligent Transportation Systems
-  (ITSC), IEEE}, 2014, pp. 697--702.
+------, ``Overtaking and receding vehicle detection for driver assistance and
+  naturalistic driving studies,,'' in \emph{ITSC}, 2014, pp. 697--702.
 
 \bibitem{trivedi2007looking}
 M.~M. Trivedi, T.~Gandhi, and J.~McCall, ``Looking-in and looking-out of a
-  vehicle: Computer-vision-based enhanced vehicle safety,'' \emph{Intelligent
-  Transportation Systems, IEEE Transactions on}, vol.~8, pp. 108--120, 2007.
+  vehicle: Computer-vision-based enhanced vehicle safety,'' \emph{ITSC},
+  vol.~8, pp. 108--120, 2007.
 
 \bibitem{HirschmullerRLandSGBM}
 H.~Hirschmuller, ``Accurate and efficient stereo processing by semi-global
   matching and mutual information,'' in \emph{Computer Vision and Pattern
-  Recognition (CVPR), IEEE}, 2005, pp. 807--814.
+  Recognition (CVPR)}, 2005, pp. 807--814.
 
 \bibitem{labayrade2003onboard}
 R.~Labayrade, D.~Aubert, and S.~S. Ieng, ``Onboard road obstacles detection in
@@ -54,11 +53,11 @@ R.~Labayrade, D.~Aubert, and S.~S. Ieng, ``Onboard road obstacles detection in
 \bibitem{labayrade2002real}
 R.~Labayrade, D.~Aubert, and J.-P. Tarel, ``Real time obstacle detection in
   stereovision on non flat road geometry through" v-disparity"
-  representation,'' in \emph{Intelligent Vehicle Symposium, IEEE}.\hskip 1em
-  plus 0.5em minus 0.4em\relax IEEE, 2002, pp. 646--651.
+  representation,'' in \emph{IV}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2002, pp. 646--651.
 
 \bibitem{Geiger2011IV}
 A.~Geiger, J.~Ziegler, and C.~Stiller, ``Stereoscan: Dense 3d reconstruction in
-  real-time,'' in \emph{Intelligent Vehicles Symposium (IV)}, 2011.
+  real-time,'' in \emph{IV}, 2011.
 
 \end{thebibliography}
