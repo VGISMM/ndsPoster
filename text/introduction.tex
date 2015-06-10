@@ -1,8 +1,8 @@
 We introduce a stereo-vision based system that enables automatic event detection based on detection and tracking of vehicles in scenarios that usually would be highly problematic for monocular detectors. The purpose is to provides insight into patterns and behaviors of drivers during near-crashes and crashes. The proposed system will be limited to only handling a handful of events, which especially benefit from the extra dimension gained with stereo-vision. The considered events are illustrated in Figure \ref{fig:introduction:semantics}. 
-\vspace*{-3mm}
+%\vspace*{-3mm}
 \begin{figure}[H]
   \centering
-  \begin{tabular}{cc}
+  \begin{tabular}{lr}
     \subfloat[\tiny{Average number of cars in front of ego-vehicle.}]{\includegraphics[width=0.45\textwidth]{text/figures/numOfObjects.png} \label{fig:introduction:semantics:a}} &
     \subfloat[\tiny{Distance to rear-end of vehicle directly in front.}]{\includegraphics[width=0.45\textwidth]{text/figures/avgDistanceSameLane.png} \label{fig:introduction:semantics:b}} \\
     
@@ -28,4 +28,4 @@ Our contributions are:
 \item Introducing a new event: Average distance to vehicles directly in front of the ego vehicle. (Figure \ref{fig:introduction:semantics:b}).
 \end{itemize}
 
-%\vspace{0.5pt}
+\vspace{2pt}
